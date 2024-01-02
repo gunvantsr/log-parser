@@ -16,7 +16,6 @@
     "baseUrl": ".",
     "paths": {
       "@log-parser/server-core": ["libs/server-core/src/index.ts"],
-      "@log-parser/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

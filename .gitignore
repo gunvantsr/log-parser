@@ -4,6 +4,7 @@
 dist
 tmp
 /out-tsc
+uploads
 
 # dependencies
 node_modules
@@ -39,3 +40,4 @@ testem.log
 Thumbs.db
 
 .nx/cache
+.env
