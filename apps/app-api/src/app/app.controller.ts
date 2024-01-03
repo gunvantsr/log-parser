@@ -41,9 +41,6 @@ export class AppController {
       const fileName = file.filename;
       this.logger.debug(`${logPrefix} - Uploading file...${fileName}`);
       const jsonData = await this.logParserService.ProcessLogFile(fileName);
-
-      response.setHeader('Content-Type', 'application/json');
-      response.setHeader('Content-Type', 'application/json');
       response.setHeader(
         'Content-Disposition',
         `attachment; filename=transformed_logs.json`

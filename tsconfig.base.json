@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@log-parser/server-core": ["libs/server-core/src/index.ts"],
+      "@log-parser/server-core": ["libs/server-core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
